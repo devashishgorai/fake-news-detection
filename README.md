@@ -1,72 +1,117 @@
-🧠 Fake News Detection using BERT
+<div align="center">
 
-A Deep Learning based Fake News Detection System built using Fine-Tuned BERT and deployed using Streamlit.
+# 📰 Fake News Detection using BERT
 
-Features
+### 🚀 Deep Learning Powered News Verification System
 
-* Detects Fake and Real News Articles
-* Fine-Tuned BERT Model
-* Confidence Score Visualization
-* Modern Streamlit Interface
-* Real-time Prediction
+![Python](https://img.shields.io/badge/Python-3.9-blue?style=for-the-badge)
+![PyTorch](https://img.shields.io/badge/PyTorch-DeepLearning-red?style=for-the-badge)
+![Transformers](https://img.shields.io/badge/HuggingFace-BERT-yellow?style=for-the-badge)
+![Streamlit](https://img.shields.io/badge/Streamlit-WebApp-ff4b4b?style=for-the-badge)
 
-Tech Stack
+</div>
 
-* Python
-* PyTorch
-* Transformers (Hugging Face)
-* BERT
-* Streamlit
-* Pandas
-* Scikit-Learn
+---
 
-Dataset
+## 🎯 Project Overview
 
-The project uses:
+This project detects whether a news article is **REAL** or **FAKE** using a Fine-Tuned BERT (Bidirectional Encoder Representations from Transformers) model.
 
-* Fake.csv
-* True.csv
+The system was trained on thousands of news articles and deployed using Streamlit for real-time prediction.
 
-News articles are cleaned, labeled, and merged before training.
+---
 
-Model Performance
+## ✨ Features
 
-Metric	Score
-Accuracy	99.91%
-Precision	99.90%
-Recall	99.90%
-F1 Score	99.90%
+✅ Fake News Detection
 
-Project Structure
+✅ Fine-Tuned BERT Model
 
+✅ Interactive Streamlit UI
+
+✅ Confidence Score Display
+
+✅ Deep Learning Based Classification
+
+✅ GitHub Hosted Source Code
+
+---
+
+## 🧠 Tech Stack
+
+| Technology | Purpose |
+|------------|----------|
+| Python | Core Programming |
+| PyTorch | Deep Learning |
+| Transformers | BERT Model |
+| Pandas | Data Processing |
+| Scikit-Learn | Evaluation |
+| Streamlit | Web Application |
+
+---
+
+## 📂 Project Structure
+
+```text
 fake-news-detection/
-
-├── dataset/
-
-├── models/
-
+│
 ├── training/
-
+│   ├── cleaning.py
+│   ├── train_bert.py
+│
 ├── app.py
-
 ├── requirements.txt
-
 ├── README.md
+└── .gitignore
+```
 
-Installation
+---
 
-git clone https://github.com/yourusername/fake-news-detection.git
+## 📊 Model Performance
+
+| Metric | Score |
+|----------|----------|
+| Accuracy | 99.91% |
+| Precision | 99.91% |
+| Recall | 99.91% |
+| F1 Score | 99.91% |
+
+---
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/devashishgorai/fake-news-detection.git
+
 cd fake-news-detection
+
 pip install -r requirements.txt
 
-Run Application
-
 streamlit run app.py
+```
 
-Author
+---
 
-Devashish Gorai
+## 🖥️ Application Preview
+
+_Add screenshots here after deployment._
+
+---
+
+## 🎓 Academic Project
+
+Developed as a Deep Learning and NLP based Fake News Detection System using Fine-Tuned BERT.
+
+---
+
+## 👨‍💻 Developer
+
+### Devashish Gorai
 
 Electronics & Communication Engineering (ECE)
 
 Institute of Engineering & Management (IEM), Kolkata
+
+---
+
+⭐ If you like this project, consider giving it a star.
