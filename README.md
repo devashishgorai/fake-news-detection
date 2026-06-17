@@ -94,7 +94,9 @@ streamlit run app.py
 
 ## 🖥️ Application Preview
 
-_Add screenshots here after deployment._
+
+<img width="2940" height="2645" alt="image" src="https://github.com/user-attachments/assets/3ec25d09-34aa-47db-869c-9b46cc7c1aad" />
+
 
 ---
 
